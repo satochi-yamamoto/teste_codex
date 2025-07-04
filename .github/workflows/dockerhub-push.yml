@@ -12,11 +12,11 @@ on:
       - main
       - master
       - develop
-
-jobs:
+obs:
   build-and-push:
-    if: github.event.pull_request.merged == true || github.event_name == 'push'
     runs-on: ubuntu-latest
+    environment: Docker_hub # << coloque o nome exato do ambiente do Environment
+  
 
     steps:
       - name: Checkout code
