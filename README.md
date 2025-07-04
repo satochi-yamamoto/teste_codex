@@ -10,3 +10,5 @@ docker compose up --build
 ```
 
 A aplicação ficará disponível em `http://localhost:8000`.
+
+ADD TESTE
