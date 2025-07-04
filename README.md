@@ -7,6 +7,7 @@ SQLite como banco de dados e preparada para execução em Docker.
 
 ```bash
 docker compose up --build
+
 ```
 
 A aplicação ficará disponível em `http://localhost:8000`.
