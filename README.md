@@ -5,12 +5,3 @@ SQLite como banco de dados e preparada para execução em Docker.
 
 ## Como executar
 
-
-```bash
-docker compose up --build
-
-```
-
-A aplicação ficará disponível em `http://localhost:8000`.
-
-ADD TESTE
